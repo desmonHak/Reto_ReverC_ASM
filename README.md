@@ -10,7 +10,7 @@ Tags: #Reversing #Assemblyx86_intel #C #CTF #Linux #32bits
 Description: 
     Simple CTF de reversing, usted puede compilar el reto con lo siguiente;
 ```bash
- gcc -O0 -masm=intel -static  -z execstack -m32  -ggdb -no-pie -fno-stack-protector poorboy.c -o poorboy.elf
+ gcc -O0 -masm=intel -static  -z execstack -m32  -ggdb -no-pie -fno-stack-protector code.c -o code.elf
 ```
 
 ----
